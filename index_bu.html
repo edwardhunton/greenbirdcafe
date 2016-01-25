@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Green Bird Cafe offers seriously good coffee in a welcoming, stylish environment, together with delicious homemade food. We prepare our menu each day based on what's in season and eating well at the time.
+As well as our breakfast and lunch menu, we have a carefully selected wine list and extensive range of freshly baked cakes.
+We are also pleased to offer an outside catering service, anything from bespoke picnics in the park to office lunches. Come and talk to us and we can help put together a bespoke package that fits your needs.
+Our centrally located cafe is available to hire in the evenings for private parties, exhibitions and pop up projects.">
+    <title>Green Bird Cafe - Bath Avon Cafe / Restaurant Royal Crescent</title>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() {
+            var mapCanvas = document.getElementById('map-canvas');
+            var mapOptions = {
+                center: new google.maps.LatLng(51.3866650,-2.3657662),
+                zoom: 17,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+            var myLatLng = new google.maps.LatLng(51.3866645,-2.3660900);
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                icon: iconBase + 'poi.png'
+            });
+
+        }
+       // google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+   <!-- <link rel="stylesheet" type="text/css" href="styles.css" ></head>-->
+    <link href="./stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/vendor/bootstrap.min.css" rel="stylesheet"/>
+    <script src="javascripts/vendor/jquery.min.js"></script>
+ <!--   <script src="javascripts/vendor/bootstrap.min.js"></script>-->
+</head>
+<body>
+
+<div class="container">
+
+
+
+<img class='logo' src="images/logo.png" alt="Green Bird Cafe logo">
+
+    <div class="col-sm-1"></div>
+
+    <div class="col-sm-10">
+
+        <div a href="home" class="row">
+
+           <nav>
+
+               <ul>
+                   <li><a href="#about">ABOUT</a></li><div class="dot">.</div>
+                   <li><a href="#food">FOOD</a></li><div class="dot">.</div>
+                   <li><a href="#drink">DRINK</a></li><div class="dot">.</div>
+                   <li><a href="#reservation">RESERVATION</a></li><div class="dot">.</div>
+                   <li><a href="#reservation">CONTACT</a></li><div class="dot">.</div>
+                   <li><a href="#reservation">BLOG</a></li>
+
+
+
+               </ul>
+
+
+           </nav>
+
+            <div class="keyline"></div>
+
+
+
+
+        </div>
+        <div a href="about" class="row">
+
+            <div class="col-sm-5"></div>
+
+            <div class="col-sm-2 sectiontext">ABOUT</div>
+
+            <div class="col-sm-5"></div>
+
+            <div class="col-sm-12 keyline_box">
+
+
+
+            <img src="images/logo.png" width="200px" height="300px" align="left" class="inlineimg">Aenean ut eros et nisl sagittis vestibulum. Suspendisse potenti. Vivamus consectetuer hendrerit lacus. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.
+            Ut id nisl quis enim dignissim sagittis. Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. Phasellus viverra nulla ut metus varius laoreet. Praesent egestas neque eu enim. Fusce egestas elit eget lorem.
+            Suspendisse feugiat.. Pellentesque posuere. Vivamus consectetuer hendrerit lacus. Curabitur blandit mollis lacus.
+            Cras non dolor. In turpis. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Phasellus viverra nulla ut metus varius laoreet. Phasellus nec sem in justo pellentesque facilisis.
+
+            </div>
+
+        </div>
+
+        <div a href="food" class="row">
+
+            <div class="col-sm-5"></div>
+
+            <div class="col-sm-2 sectiontext">FOOD</div>
+
+            <div class="col-sm-5"></div>
+
+            <div class="keyline"></div>
+
+        </div>
+
+        <div a href="drink" class="row">
+
+            <div class="col-sm-5"></div>
+
+            <div class="col-sm-2 sectiontext">DRINK</div>
+
+            <div class="col-sm-5"></div>
+
+            <div class="keyline"></div>
+
+
+        </div>
+
+        <div a href="reservation" class="row">
+
+            <div class="col-sm-5"></div>
+
+            <div class="col-sm-2 sectiontext">RESERVATION</div>
+
+            <div class="col-sm-5"></div>
+
+            <div class="keyline"></div>
+
+
+        </div>
+
+        <div a href="contact" class="row">
+
+            <div class="col-sm-5"></div>
+
+            <div class="col-sm-2 sectiontext">CONTACT</div>
+
+            <div class="col-sm-5"></div>
+
+            <div class="keyline"></div>
+
+
+        </div>
+
+        <div a href="blog" class="row">
+
+            <div class="col-sm-5"></div>
+
+            <div class="col-sm-2 sectiontext">BLOG</div>
+
+            <div class="col-sm-5"></div>
+
+            <div class="keyline"></div>
+
+
+
+
+        </div>
+
+
+    </div>
+    <div class="col-sm-1"></div>
+
+
+
+
+
+
+
+<div id="map-canvas" class="map" ></div>
+
+    <ul class="contact">
+        <li class="address">11 Margaret's Buildings, Bath BA1 2LP |</li>
+        <li class="phone">+44 (0) 1225 487846 |</li>
+        <li class="email"><a href="mailto:henry@greenbirdcafe.co.uk">henry@greenbirdcafe.co.uk</a></li>
+    </ul>
+
+</div>
+
+</body>
+</html>

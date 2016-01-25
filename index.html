@@ -2,9 +2,318 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Green Bird Cafe offers seriously good coffee in a welcoming, stylish environment, together with delicious homemade food. We prepare our menu each day based on what's in season and eating well at the time.
+As well as our breakfast and lunch menu, we have a carefully selected wine list and extensive range of freshly baked cakes.
+We are also pleased to offer an outside catering service, anything from bespoke picnics in the park to office lunches. Come and talk to us and we can help put together a bespoke package that fits your needs.
+Our centrally located cafe is available to hire in the evenings for private parties, exhibitions and pop up projects.">
+    <title>Green Bird Cafe - Bath Avon Cafe / Restaurant Royal Crescent</title>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() {
+            var mapCanvas = document.getElementById('map-canvas');
+            var mapOptions = {
+                center: new google.maps.LatLng(51.3866650,-2.3657662),
+                zoom: 17,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+            var myLatLng = new google.maps.LatLng(51.3866645,-2.3660900);
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                icon: iconBase + 'poi.png'
+            });
+
+        }
+       google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+   <!-- <link rel="stylesheet" type="text/css" href="styles.css" ></head>-->
+    <link href="stylesheets/vendor/bootstrap.min.css" rel="stylesheet"/>
+    <link href="./stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+    <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+    <script src="javascripts/vendor/jquery.min.js"></script>
+ <!--   <script src="javascripts/vendor/bootstrap.min.js"></script>-->
 </head>
 <body>
+
+<div class="container">
+
+
+
+<img class='logo' src="images/logo.png" alt="Green Bird Cafe logo" />
+
+    <div class="col-sm-1 colorblock"></div>
+
+    <div class="col-sm-10">
+
+        <div a href="home" class="row">
+
+           <nav>
+               <ul>
+                   <li><a href="#about">ABOUT</a></li><div class="dot">.</div>
+                   <li><a href="#food">FOOD</a></li><div class="dot">.</div>
+                   <li><a href="#drink">DRINK</a></li><div class="dot">.</div>
+                   <li><a href="#events">EVENTS</a></li><div class="dot">.</div>
+                   <li><a href="#reservation">RESERVATION</a></li>
+                  <!--<div class="dot">.</div> <li><a href="#contact">CONTACT</a></li>-->
+
+                 </ul>
+            </nav>
+        </div>
+
+        <div id="about" class="row">
+
+            <div class="col-sm-5">
+
+
+            </div>
+
+            <div class="col-sm-2 contentTitle">
+
+                ABOUT
+
+            </div>
+
+            <div class="col-sm-5">
+
+
+            </div>
+
+
+          <div class="row">
+
+              <div class="col-sm-12 contentBlock">
+
+                  <img src="./images/about_2.jpg" width="134px" height="200px" align="left" class="inlineimg_left">We are an independently owned café located between the Royal Crescent & Circus in the
+
+                  beautiful city of Bath. <br/><br/>
+
+                  We offer fantastic food & drinks in a relaxed & welcoming atmosphere. There
+
+                  is seating for around thirty people inside or in warmer weather you can sit & people watch at the
+
+                  front of the building. <br/><br/><img src="./images/about_1.jpg" width="200px" height="134px" align="right" class="inlineimg_right">If you are looking for a secluded suntrap, we also have a delightful courtyard
+
+                  to the back. <br/><br/>The Green Bird Café was opened in July 2015 by people with a background in food &
+
+                  retail & who know & love this fantastic city.
+
+
+              </div>
+
+
+
+          </div> <!-- end row -->
+
+            <div class="col-sm-5">
+
+
+            </div>
+
+            <div class="col-sm-2 contentTitle">
+
+                FOOD
+
+            </div>
+
+            <div class="col-sm-5">
+
+
+            </div>
+
+            <div id="food" class="row">
+
+                <div class="col-sm-12 contentBlock">
+
+                    <img src="./images/food_1.jpg" width="200px" height="134px" align="right" class="inlineimg_right">Our menu changes daily & all food is made on the premises using great ingredients, such as Free-
+
+                    Range meat from Devon & amazing tomatoes from the Isle of Wight.<br/><br/>
+
+                    We offer a varied choice of breakfast; keep it simple with local Bertinet toast & jam or treat yourself
+
+                    to delicious American-style pancakes with maple syrup & bacon. Or you can start your day with a
+
+                    bowl of porridge, scrambled Free-Range eggs on toast or a crispy bacon bap.<br/><br/> <img src="images/food_2.jpg" width="200px" height="134px" align="left" class="inlineimg_left">
+
+                    Our lunch menu is simple but well thought out, offering a selection of freshly made sandwiches
+
+                    served with salad. Popular choices are Salt Beef, Emmenthal & Dill Pickle or Creamy Brie with Isle
+
+                    of Wight tomatoes. All of our bread is from the Bertinet Bakery here in Bath. It is their huge
+
+                    sourdough which forms the basis for our delicious & extremely popular toasties. Filled with Mature
+
+                    Cheddar, Hand-Carved Ham & Mustard or Mozarella, Pesto & Sund-dried Tomatoes they will
+
+                    certainly leave you satisfied! <br/><br/><img src="images/food_3.jpg" width="200px" height="134px" align="right" class="inlineimg_right">Our soups, tarts & stews vary from day to day & depending on the
+
+                    season. Our most popular soup to date has to be Celariac & Midford Cider – sure to warm you on
+
+                    a chilly day. <br/><br/>Since opening we have gained a great reputation for our variety of delicious cakes, which also includes some gluten free options.<br/><br/>
+                    <h4><a target="_blank" href="./pdf/GBC_BreakfastMenu.pdf">Sample Breakfast Menu</a></h4><h4><a target="_blank" href="./pdf/GBC_LunchMenu.pdf">Sample Lunch Menu</a></h4>
+
+                </div>
+
+
+
+            </div> <!-- end row -->
+
+            <div class="col-sm-5">
+
+
+            </div>
+
+            <div class="col-sm-2 contentTitle">
+
+                DRINK
+
+            </div>
+
+            <div class="col-sm-5">
+
+
+            </div>
+
+            <div id="drink" class="row">
+
+                <div class="col-sm-12 contentBlock">
+
+                    <img src="images/drink_1.jpg" width="200px" height="134px" align="left" class="inlineimg_left">Our coffee comes from Brian Wogan, a long-running family business based in Bristol. We have
+
+                    carefully selected a single-estate Nicaraguan bean which forms the foundation of all our delicious coffees. Not only are the beans directly traded, which means more money for the growers, Brian
+
+                    Wogan also sponsors students on the Teach a Man To Fish education charity.
+
+                    teachamantofish.org.uk <br/><br/><img src="images/drink_2.jpg" width="134px" height="200px" align="right" class="inlineimg_right">
+
+                    Henny & Joe’s Chai has become a firm favourite on the hot drinks menu & we are lucky to have
+
+                    known its creators for many years. This too, is made in Bath.
+
+                    On the chilled drinks front, we freshly squeeze our orange juice & make our own zingy lemonade
+
+                    to order. <br/><br/>We source the remainder of our soft drinks directly from Ashridge drinks company, wholly
+
+                    Organic & based in Devon.<br/><br/><img src="images/drink_3.jpg" width="200px" height="134px" align="left" class="inlineimg_left">
+
+                    We are fully licensed which has allowed us to hand pick a fantastic selection of alcoholic drinks.
+
+                    Our wine list is small but carefully chosen to offer exceptional quality at an affordable price.
+
+                    Whites, Reds, Rose & Sparkling are all available by the glass or bottle.<br/><br/>
+
+                    We also stock bottled ales from both Bath Ales & Wiper & True in Bristol. The cider we have
+
+                    selected to sell is Honey’s Midford Cider which is made just twelve miles out of Bath.<br/><br/>
+
+                    <h4><a target="_blank" href="./pdf/GBC_DrinksList.pdf">Sample Drinks Menu</a></h4>
+
+
+                </div>
+
+
+
+            </div> <!-- end row -->
+
+
+            <div class="col-sm-5">
+
+
+            </div>
+
+            <div class="col-sm-2 contentTitle">
+
+                EVENTS
+
+            </div>
+
+            <div class="col-sm-5">
+
+
+            </div>
+
+            <div id="events" class="row">
+
+                <div class="col-sm-12 contentBlock">
+
+                    <img src="images/events_1.jpg" width="200px" height="134px" align="right" class="inlineimg_right">Since opening in July 2015 we have held a variety of events. These have included three course
+
+                    dinners, birthday parties & Christmas drinks & canapes. We aim to continue these private
+
+                    bookings alongside launching a monthly supper club...watch this space!<br/><br/>
+
+                    The Green Bird Café is a great space to hold an event & by offering exclusive use of the venue,
+
+                    our customers have loved the personal & bespoke service we offer; you can even bring your own
+
+                    music!<br/><br/><img src="images/events_2.jpg" width="200px" height="134px" align="left" class="inlineimg_left">
+
+                    We are also able to provide outside catering in either a home or business environment, tailored to
+
+                    your requirements & budget.
+
+
+                </div>
+
+
+
+            </div> <!-- end row -->
+
+            <div class="col-sm-5">
+
+
+            </div>
+
+            <div class="col-sm-2 contentTitle">
+
+                RESERVATION
+
+            </div>
+
+            <div class="col-sm-5">
+
+
+            </div>
+
+            <div id="reservation" class="row">
+
+                <div class="col-sm-12 contentBlock">
+
+                    To book a table or to chat to us about hiring The Green Bird Café, give us a call, drop us a line or if you are in the area pop in for a chat!
+
+
+                    <div id="map-canvas" class="map" ></div>
+
+                    <ul class="contact">
+                        <li class="address">11 Margaret's Buildings, Bath BA1 2LP |</li>
+                        <li class="phone">+44 (0) 1225 487846 |</li>
+                        <li class="email"><a href="mailto:claire@greenbirdcafe.co.uk">claire@greenbirdcafe.co.uk</a></li>
+
+                    </ul><br/>
+                    <ul class="social">
+                        <li class="facebook"><a href="https://www.facebook.com/The-Green-Bird-Cafe-1612787919002054/?fref=ts">Facebook</a> |</li>
+                        <li class="twitter"><a href="https://twitter.com/greenbirdcafe">@Greenbirdcafe</a> |</li>
+                        <li class="instgram"><a href="https://www.instagram.com/thegreenbirdcafe/">Instagram</a></li>
+                    </ul>
+
+                </div>
+
+                </div>
+
+
+
+            </div> <!-- end row -->
+
+        </div>
+
+
+        </div>
+
+        </div>
 
 </body>
 </html>

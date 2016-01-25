@@ -1,0 +1,54 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+body {
+  background-color: #FFFFFF;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #6e9553; }
+
+img.logo {
+  /*  position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;*/ }
+
+.map {
+  width: 700px;
+  height: 200px; }
+
+.container {
+  width: 800px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  vertical-align: middle; }
+
+.contact {
+  vertical-align: middle;
+  padding: 15px 0 0 0;
+  list-style-type: none;
+  margin: auto 0;
+  /* text-align: center;*/
+  width: 100%;
+  float: left; }
+
+.opening {
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin-bottom: 20px; }
+
+.contact li {
+  color: #6e9553;
+  display: inline; }
+
+a[href^="mailto"] {
+  color: #DDDDDD; }
+
+/*# sourceMappingURL=screen.css.map */
